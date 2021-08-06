@@ -10,11 +10,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-      </main>
+      <div className={styles.container}>
+        <main className={styles.main}>
+          <section className={styles.section}>
+            <img className={styles.img} src="assets/images/dextter.png" />
+            <h1 className={styles.title}>Dextter</h1>
+            <h2 className={styles.subtitle}>Let's talk about crypto</h2>
+          </section>
+        </main>
+      </div>
     </div>
   );
 }
