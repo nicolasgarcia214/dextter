@@ -1,3 +1,5 @@
+$rojo: #bef300;
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -34,7 +36,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: $rojo;
   text-decoration: none;
 }
 
@@ -61,7 +63,7 @@
 }
 
 .code {
-  background: #fafafa;
+  background: $rojo;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
